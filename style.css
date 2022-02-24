@@ -1,0 +1,18 @@
+p {
+   color: red;
+   font-size: 20px;
+}
+
+#paragraph {
+    color: blue;
+}
+
+.first {
+    color: blue;
+    font-size: 18px;
+}
+
+.second {
+    color: red;
+    font-size: 22px;
+}

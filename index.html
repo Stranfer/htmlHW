@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Форма</title>
+</head>
+<body>
+<p><b>Форма</b></p>
+
+<form action="/handler.php" method="post">
+    <label>Введите имя</label>
+    <input type="text" id="name" name="name"/>
+    <br>
+    <br>
+    <label>Введите фамилию</label>
+    <input type="text" id="lastName" name="lastName"/>
+    <br>
+    <br>
+    <label>Выберите опцию</label>
+    <select>
+        <option selected value="Выберите опцию">Выберите опцию</option>
+        <option value="Опция 1">Опция 1</option>
+        <option value="Опция 2">Опция 2</option>
+        <option value="Опция 3">Опция 3</option>
+    </select>
+    <br>
+    <br>
+    <label>Выберите необходимые пункты</label>
+    <select multiple size="3">
+        <option>Пункт 1</option>
+        <option>Пункт 2</option>
+        <option>Пункт 3</option>
+    </select>
+    <br>
+    <br>
+    <label>Опишите вашу проблему</label>
+    <textarea name="comment"></textarea>
+    <br>
+    <br>
+    <label>Подтвердите, что вы не робот</label>
+    <input type="checkbox" />
+    <br>
+    <br>
+    <label>Подтверждаю согласие на обработку персональных данных</label>
+    <input type="radio" />
+    <button type="submit">Отправить заявку</button>
+</form>
+
+
+</body>
+</html>
